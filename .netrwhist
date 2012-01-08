@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/lusurf/.local/share/gnome-shell/extensions/media@sotecware.net'
+let g:netrw_dirhist_2='/home/lusurf/Desktop/taa/PHP/CodeCoverage'
+let g:netrw_dirhist_3='/usr/share/pear/File/Iterator'

@@ -1,0 +1,377 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<SID>xx	bundle/taglist.vim/plugin/taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+Findcomplete	autoload/pathogen.vim	/^function! s:Findcomplete(A,L,P) " {{{1$/;"	f
+Helptags	autoload/pathogen.vim	/^command! -bar Helptags :call pathogen#helptags()$/;"	c
+TagList_IsValid	bundle/taglist.vim/plugin/taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	bundle/taglist.vim/plugin/taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	bundle/taglist.vim/plugin/taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	bundle/taglist.vim/plugin/taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+Tlist	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	bundle/taglist.vim/plugin/taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	bundle/taglist.vim/plugin/taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	bundle/taglist.vim/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Add_Files	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+Tlist_Add_Files_Recursive	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+Tlist_Auto_Highlight_Tag	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Update	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	bundle/taglist.vim/plugin/taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Buffer_Removed	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+Tlist_Change_Sort	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+Tlist_Close_On_Select	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Ctags_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Debug_Disable	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+Tlist_Debug_Enable	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+Tlist_Debug_Show	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+Tlist_Detect_Filetype	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+Tlist_Discard_FileInfo	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+Tlist_Discard_TagInfo	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+Tlist_Display_Prototype	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exe_Cmd_No_Acmds	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+Tlist_Exit_OnlyWindow	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Extract_Tag_Scope	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+Tlist_Extract_Tagtype	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+Tlist_FileType_Init	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+Tlist_File_Fold_Auto_Close	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_Find_Nearest_Tag_Idx	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+Tlist_GainFocus_On_ToggleOpen	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Buffer_Filetype	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+Tlist_Get_File_Index	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+Tlist_Get_Tag_Linenum	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype_By_Line	bundle/taglist.vim/plugin/taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tag_SearchPat	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Type_By_Tag	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+Tlist_Get_Tagname_By_Line	bundle/taglist.vim/plugin/taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	bundle/taglist.vim/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Init_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+Tlist_Log_Msg	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+Tlist_Max_Submenu_Items	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Menu_Add_Base_Menu	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+Tlist_Menu_File_Refresh	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+Tlist_Menu_Get_Tag_Type_Cmd	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+Tlist_Menu_Init	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+Tlist_Menu_Jump_To_Tag	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+Tlist_Menu_Refresh	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+Tlist_Menu_Remove_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+Tlist_Menu_Update_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+Tlist_Parse_Tagline	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+Tlist_Post_Close_Cleanup	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+Tlist_Process_Dir	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+Tlist_Process_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+Tlist_Process_File_Always	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Process_Filelist	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+Tlist_Refresh	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+Tlist_Refresh_Folds	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+Tlist_Remove_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+Tlist_Session_Load	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+Tlist_Session_Save	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+Tlist_Set_App	bundle/taglist.vim/plugin/taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Skip_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+Tlist_Sort_Type	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Update_Current_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+Tlist_Update_File	bundle/taglist.vim/plugin/taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Update_Remove_List	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+Tlist_Use_Horiz_Window	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Right_Window	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_User_Removed_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+Tlist_Vim_Session_Load	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+Tlist_Warning_Msg	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+Tlist_WinHeight	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	bundle/taglist.vim/plugin/taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_Window_Check_Auto_Open	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+Tlist_Window_Check_Width	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+Tlist_Window_Close	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+Tlist_Window_Create	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+Tlist_Window_Display_Help	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+Tlist_Window_Exit_Only_Window	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+Tlist_Window_Get_File_Index_By_Linenum	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+Tlist_Window_Get_Tag_Index	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+Tlist_Window_Get_Tag_Type_By_Linenum	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+Tlist_Window_Goto_Window	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+Tlist_Window_Highlight_Line	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+Tlist_Window_Highlight_Tag	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+Tlist_Window_Init	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+Tlist_Window_Jump_To_Tag	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+Tlist_Window_Mark_File_Window	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+Tlist_Window_Move_To_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+Tlist_Window_Open	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+Tlist_Window_Open_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+Tlist_Window_Open_File_Fold	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+Tlist_Window_Refresh	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+Tlist_Window_Refresh_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+Tlist_Window_Remove_File_From_Display	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+Tlist_Window_Show_Info	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+Tlist_Window_Toggle	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+Tlist_Window_Toggle_Help_Text	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+Tlist_Window_Update_File	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+Tlist_Window_Update_Line_Offsets	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+Tlist_Window_Zoom	bundle/taglist.vim/plugin/taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+Ve	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Ve       :execute s:find(<count>,'edit<bang>',<q-args>)$/;"	c
+Vedit	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vedit    :execute s:find(<count>,'edit<bang>',<q-args>)$/;"	c
+VimIM	bundle/VimIM/plugin/vimim.vim	/^function! VimIM(start, keyboard)$/;"	f
+Vopen	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vopen    :execute s:find(<count>,'edit<bang>',<q-args>,'lcd')$/;"	c
+Vpedit	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vpedit   :execute s:find(<count>,'pedit<bang>',<q-args>)$/;"	c
+Vread	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vread    :execute s:find(<count>,'read<bang>',<q-args>)$/;"	c
+Vsplit	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vsplit   :execute s:find(<count>,'split<bang>',<q-args>)$/;"	c
+Vtabedit	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vtabedit :execute s:find(<count>,'tabedit<bang>',<q-args>)$/;"	c
+Vvsplit	autoload/pathogen.vim	/^command! -bar -bang -count=1 -nargs=1 -complete=customlist,s:Findcomplete Vvsplit  :execute s:find(<count>,'vsplit<bang>',<q-args>)$/;"	c
+chinese	bundle/VimIM/plugin/vimim.vim	/^function! s:chinese(...)$/;"	f
+find	autoload/pathogen.vim	/^function! s:find(count,cmd,file,...) " {{{1$/;"	f
+g:loaded_pathogen	autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:vimim_profile	bundle/VimIM/plugin/vimim.vim	/^let g:vimim_profile = reltime()$/;"	v
+loaded_taglist	bundle/taglist.vim/plugin/taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	bundle/taglist.vim/plugin/taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	bundle/taglist.vim/plugin/taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	bundle/taglist.vim/plugin/taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+pathogen#cycle_filetype	autoload/pathogen.vim	/^function! pathogen#cycle_filetype() " {{{1$/;"	f
+pathogen#glob	autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort " {{{1$/;"	f
+pathogen#glob_directories	autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort " {{{1$/;"	f
+pathogen#helptags	autoload/pathogen.vim	/^function! pathogen#helptags() " {{{1$/;"	f
+pathogen#infect	autoload/pathogen.vim	/^function! pathogen#infect(...) abort " {{{1$/;"	f
+pathogen#is_disabled	autoload/pathogen.vim	/^function! pathogen#is_disabled(path) " {{{1$/;"	f
+pathogen#join	autoload/pathogen.vim	/^function! pathogen#join(...) abort " {{{1$/;"	f
+pathogen#legacyjoin	autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort " {{{1$/;"	f
+pathogen#rtpfindfile	autoload/pathogen.vim	/^function! pathogen#rtpfindfile(file,count) "{{{1$/;"	f
+pathogen#runtime_append_all_bundles	autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) " {{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) " {{{1$/;"	f
+pathogen#separator	autoload/pathogen.vim	/^function! pathogen#separator() abort " {{{1$/;"	f
+pathogen#split	autoload/pathogen.vim	/^function! pathogen#split(path) abort " {{{1$/;"	f
+pathogen#uniq	autoload/pathogen.vim	/^function! pathogen#uniq(list) abort " {{{1$/;"	f
+s:Tlist_Skip_Refresh	bundle/taglist.vim/plugin/taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM  = [" ====  introduction     ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  \/search          ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  backend: clouds  ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  backend: dir     ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  backend: file    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  backend: mycloud ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  core driver      ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  core engine      ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  core workflow    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  easter eggs      ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  hjkl  vimimgame  ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  initialization   ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: cjk       ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: english   ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: number    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: pinyin    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: shuangpin ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: unicode   ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  input: visual    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  lmap imap nmap   ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  mode: chinese    ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  mode: onekey     ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  mode: windowless ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  python2 python3  ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  statusline       ==== {{{"]$/;"	v
+s:VimIM	bundle/VimIM/plugin/vimim.vim	/^let s:VimIM += [" ====  user interface   ==== {{{"]$/;"	v
+s:cpo_save	bundle/taglist.vim/plugin/taglist.vim	/^let s:cpo_save = &cpo$/;"	v
+s:done_bundles	autoload/pathogen.vim	/^let s:done_bundles = ''$/;"	v
+s:egg	bundle/VimIM/plugin/vimim.vim	/^let s:egg = ' $Date: 2011-11-09 19:57:17 -0800 (Wed, 09 Nov 2011) $'$/;"	v
+s:egg	bundle/VimIM/plugin/vimim.vim	/^let s:egg = ' $Revision: 11461 $'$/;"	v
+s:egg	bundle/VimIM/plugin/vimim.vim	/^let s:egg = ' vimim easter egg:' " vim i vimim CTRL-^ CTRL-^$/;"	v
+s:menu_char_prefix	bundle/taglist.vim/plugin/taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:plugin	bundle/VimIM/plugin/vimim.vim	/^let s:plugin = expand("<sfile>:p:h")$/;"	v
+s:tlist_app_name	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_asm_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_aspvbs_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_awk_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_beta_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_eiffel_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_fortran_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_html_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v
+s:tlist_def_java_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v
+s:tlist_def_lisp_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_pascal_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v
+s:tlist_def_python_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v
+s:tlist_def_tcl_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_vera_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vim_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v
+s:tlist_def_yacc_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	bundle/taglist.vim/plugin/taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	bundle/taglist.vim/plugin/taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	bundle/taglist.vim/plugin/taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:translators	bundle/VimIM/plugin/vimim.vim	/^let s:translators = {}$/;"	v
+s:url	bundle/VimIM/plugin/vimim.vim	/^let s:url = ' http:\/\/code.google.com\/p\/vimim\/source\/list'$/;"	v
+s:url	bundle/VimIM/plugin/vimim.vim	/^let s:url = ' http:\/\/vim.sf.net\/scripts\/script.php?script_id=2506'$/;"	v
+s:url	bundle/VimIM/plugin/vimim.vim	/^let s:url = ' http:\/\/vimim.googlecode.com\/svn\/vimim\/vimim.vim.html'$/;"	v
+translators.translate	bundle/VimIM/plugin/vimim.vim	/^function! s:translators.translate(english) dict$/;"	f
+vimim_1to1	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_1to1(char)$/;"	f
+vimim_bare_bones_vimrc	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_bare_bones_vimrc()$/;"	f
+vimim_cache	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cache()$/;"	f
+vimim_check_http_executable	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_check_http_executable()$/;"	f
+vimim_chinese_rotation	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_chinese_rotation() range abort$/;"	f
+vimim_chinese_transfer	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_chinese_transfer() range abort$/;"	f
+vimim_cjk	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cjk()$/;"	f
+vimim_cjk_in_4corner	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cjk_in_4corner(chinese, info)$/;"	f
+vimim_cjk_match	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cjk_match(key)$/;"	f
+vimim_cjk_property	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cjk_property(chinese)$/;"	f
+vimim_cloud_pinyin	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_cloud_pinyin(keyboard, match_list)$/;"	f
+vimim_create_shuangpin_table	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_create_shuangpin_table(rules)$/;"	f
+vimim_debug	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_debug(...)$/;"	f
+vimim_dictionary_keycodes	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_dictionary_keycodes()$/;"	f
+vimim_dictionary_numbers	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_dictionary_numbers()$/;"	f
+vimim_dictionary_punctuations	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_dictionary_punctuations()$/;"	f
+vimim_dictionary_statusline	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_dictionary_statusline()$/;"	f
+vimim_easter_chicken	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_easter_chicken(keyboard)$/;"	f
+vimim_egg_vim	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vim()$/;"	f
+vimim_egg_vimim	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vimim()$/;"	f
+vimim_egg_vimimgame	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vimimgame()$/;"	f
+vimim_egg_vimimhelp	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vimimhelp()$/;"	f
+vimim_egg_vimimrc	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vimimrc()$/;"	f
+vimim_egg_vimimvim	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_egg_vimimvim()$/;"	f
+vimim_embedded_backend_engine	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_embedded_backend_engine(keyboard)$/;"	f
+vimim_filereadable	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_filereadable(file)$/;"	f
+vimim_get_all_clouds	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_all_clouds(key)$/;"	f
+vimim_get_all_valid_pinyin_list	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_all_valid_pinyin_list()$/;"	f
+vimim_get_cjk_head	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cjk_head(key)$/;"	f
+vimim_get_cloud	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cloud(keyboard, cloud)$/;"	f
+vimim_get_cloud_baidu	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cloud_baidu(keyboard)$/;"	f
+vimim_get_cloud_google	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cloud_google(keyboard)$/;"	f
+vimim_get_cloud_qq	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cloud_qq(keyboard)$/;"	f
+vimim_get_cloud_sogou	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_cloud_sogou(keyboard)$/;"	f
+vimim_get_english	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_english(keyboard)$/;"	f
+vimim_get_from_database	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_from_database(keyboard)$/;"	f
+vimim_get_from_datafile	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_from_datafile(keyboard)$/;"	f
+vimim_get_from_http	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_from_http(input, cloud)$/;"	f
+vimim_get_from_python2	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_from_python2(input, cloud)$/;"	f
+vimim_get_from_python3	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_from_python3(input, cloud)$/;"	f
+vimim_get_gold_from_bsddb	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_gold_from_bsddb(stone)$/;"	f
+vimim_get_head	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_head(keyboard, partition)$/;"	f
+vimim_get_hjkl_game	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_hjkl_game(keyboard)$/;"	f
+vimim_get_label	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_label(label)$/;"	f
+vimim_get_mycloud	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_mycloud(keyboard)$/;"	f
+vimim_get_no_quote_head	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_no_quote_head(keyboard)$/;"	f
+vimim_get_pinyin	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_pinyin(keyboard)$/;"	f
+vimim_get_seamless	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_seamless(cursor_positions)$/;"	f
+vimim_get_stone_from_bsddb	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_stone_from_bsddb(stone)$/;"	f
+vimim_get_unicode_ddddd	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_get_unicode_ddddd(keyboard)$/;"	f
+vimim_hjkl_rotation	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_hjkl_rotation(lines)$/;"	f
+vimim_i18n	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_i18n(line)$/;"	f
+vimim_im_chinese	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_im_chinese()$/;"	f
+vimim_imode_number	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_imode_number(keyboard)$/;"	f
+vimim_imode_today_now	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_imode_today_now(keyboard)$/;"	f
+vimim_imode_visual	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_imode_visual(char_before)$/;"	f
+vimim_initialize_backdoor	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_initialize_backdoor()$/;"	f
+vimim_initialize_bsddb	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_initialize_bsddb(datafile)$/;"	f
+vimim_initialize_debug	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_initialize_debug()$/;"	f
+vimim_initialize_global	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_initialize_global()$/;"	f
+vimim_key_value_hash	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_key_value_hash(single, double)$/;"	f
+vimim_left	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_left()$/;"	f
+vimim_make_pairs	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_make_pairs(oneline)$/;"	f
+vimim_more_pinyin_candidates	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_more_pinyin_candidates(keyboard)$/;"	f
+vimim_more_pinyin_datafile	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_more_pinyin_datafile(keyboard, sentence)$/;"	f
+vimim_mycloud	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_mycloud(cloud, cmd)$/;"	f
+vimim_mycloud_isvalid	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_mycloud_isvalid(cloud)$/;"	f
+vimim_mycloud_python_client	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_mycloud_python_client(cmd)$/;"	f
+vimim_mycloud_python_init	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_mycloud_python_init()$/;"	f
+vimim_mycloud_set_and_play	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_mycloud_set_and_play()$/;"	f
+vimim_onekey_action	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_onekey_action()$/;"	f
+vimim_onekey_evils	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_onekey_evils()$/;"	f
+vimim_plug_and_play	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_plug_and_play()$/;"	f
+vimim_popupmenu_list	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_popupmenu_list(lines)$/;"	f
+vimim_punctuation_maps	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_punctuation_maps()$/;"	f
+vimim_quanpin_transform	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_quanpin_transform(pinyin)$/;"	f
+vimim_qwertyuiop_1234567890	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_qwertyuiop_1234567890(keyboard)$/;"	f
+vimim_readfile	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_readfile(datafile)$/;"	f
+vimim_reset_after_insert	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_reset_after_insert()$/;"	f
+vimim_reset_before_anything	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_reset_before_anything()$/;"	f
+vimim_reset_before_omni	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_reset_before_omni()$/;"	f
+vimim_restore_vimrc	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_restore_vimrc()$/;"	f
+vimim_rot13	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_rot13(keyboard)$/;"	f
+vimim_save_vimrc	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_save_vimrc()$/;"	f
+vimim_screenshot	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_screenshot()$/;"	f
+vimim_search_chinese_by_english	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_search_chinese_by_english(key)$/;"	f
+vimim_sentence_datafile	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_sentence_datafile(keyboard)$/;"	f
+vimim_sentence_directory	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_sentence_directory(keyboard, directory)$/;"	f
+vimim_set_backend_clouds	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_backend_clouds()$/;"	f
+vimim_set_backend_embedded	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_backend_embedded()$/;"	f
+vimim_set_backend_mycloud	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_backend_mycloud()$/;"	f
+vimim_set_datafile	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_datafile(im, datafile)$/;"	f
+vimim_set_directory	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_directory(dir)$/;"	f
+vimim_set_frontend	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_frontend()$/;"	f
+vimim_set_global_default	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_global_default()$/;"	f
+vimim_set_im_toggle_list	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_im_toggle_list()$/;"	f
+vimim_set_keyboard_maps	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_keyboard_maps()$/;"	f
+vimim_set_pumheight	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_pumheight()$/;"	f
+vimim_set_title	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_title(title)$/;"	f
+vimim_set_vimrc	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_set_vimrc()$/;"	f
+vimim_shuangpin_generic	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_shuangpin_generic()$/;"	f
+vimim_shuangpin_rules	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_shuangpin_rules(shuangpin, rules)$/;"	f
+vimim_shuangpin_transform	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_shuangpin_transform(keyboard)$/;"	f
+vimim_sort_on_last	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_sort_on_last(line1, line2)$/;"	f
+vimim_sort_on_length	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_sort_on_length(i1, i2)$/;"	f
+vimim_start	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_start()$/;"	f
+vimim_stop	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_stop()$/;"	f
+vimim_super_reset	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_super_reset()$/;"	f
+vimim_unicode_list	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_unicode_list(ddddd)$/;"	f
+vimim_unicode_to_utf8	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_unicode_to_utf8(xxxx)$/;"	f
+vimim_url_xx_to_chinese	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_url_xx_to_chinese(xx)$/;"	f
+vimim_windowless	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_windowless(key)$/;"	f
+vimim_windowless_titlestring	bundle/VimIM/plugin/vimim.vim	/^function! s:vimim_windowless_titlestring(cursor)$/;"	f
