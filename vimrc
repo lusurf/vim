@@ -154,3 +154,11 @@ let g:DoxygenToolkit_returnTag = "@return\t"
 let g:DoxygenToolkit_briefTag_funcName = "no"
 let g:DoxygenToolkit_maxFunctionProtoLines = 30
 map <c-h> ,c<space>
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+augroup filetypedetect
+    au! BufNewFile,BufRead *.as setf actionscript
+augroup END
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor="latex"
+

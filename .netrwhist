@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/lusurf/.local/share/gnome-shell/extensions/media@sotecware.net'
-let g:netrw_dirhist_2='/home/lusurf/Desktop/taa/PHP/CodeCoverage'
-let g:netrw_dirhist_3='/usr/share/pear/File/Iterator'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/lusurf/Downloads/hls/branches/adaptive/src/com/longtailvideo/adaptive/streaming'
+let g:netrw_dirhist_2='/home/lusurf/Downloads/hls/branches/adaptive/src/com/longtailvideo/adaptive/utils'
+let g:netrw_dirhist_3='/home/lusurf/Downloads/hls/src'
+let g:netrw_dirhist_4='/home/lusurf/Downloads/hls/src/com'
+let g:netrw_dirhist_5='/home/lusurf/Downloads/hls/src/com/longtailvideo'
+let g:netrw_dirhist_6='/home/lusurf/Downloads/hls/src/com/longtailvideo/adaptive'
+let g:netrw_dirhist_7='/home/lusurf/Workspace/aifang/app-aifang-jobs/classes/aifang/job/temp'
+let g:netrw_dirhist_8='/home/lusurf/Workspace/tmp/sh/parm.sh'
+let g:netrw_dirhist_9='/home/lusurf/.offlineimap'
