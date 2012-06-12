@@ -1,7 +1,6 @@
 set history=1000
 filetype plugin on
 filetype indent on
-set autoread
 
 set ruler
 set hid
@@ -30,8 +29,10 @@ set noswapfile
 
 " Text, tab and indent related
 set expandtab
+set tabstop=8
+set softtabstop=4
 set shiftwidth=4
-set tabstop=4
+set autoread
 set smarttab
 
 set autoindent
@@ -69,3 +70,7 @@ augroup END
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor="latex"
 
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
